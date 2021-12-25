@@ -20,3 +20,5 @@ try {
 catch (PDOException $pdoex) {
     returnError($pdoex);
 }
+
+// SQL lauseke proseduurin luomiseen löytyy sql_lausekkeet.sql tiedostosta
